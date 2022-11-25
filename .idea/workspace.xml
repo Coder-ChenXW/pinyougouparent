@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe17fb10-2cb8-4c77-a862-17e63abe03f2" name="Changes" comment="完成规格管理相关业务与前端代码的移入，二次提交" />
+    <list default="true" id="fe17fb10-2cb8-4c77-a862-17e63abe03f2" name="Changes" comment="完成规格管理相关业务与前端代码的移入">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougoudao/src/main/java/com/pinyougou/mapper/TbBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougoudao/src/main/java/com/pinyougou/mapper/TbBrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougoudao/src/main/java/com/pinyougou/mapper/TbSpecificationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougoudao/src/main/java/com/pinyougou/mapper/TbSpecificationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougoudao/src/main/resources/com/pinyougou/mapper/TbBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougoudao/src/main/resources/com/pinyougou/mapper/TbBrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougoudao/src/main/resources/com/pinyougou/mapper/TbSpecificationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougoudao/src/main/resources/com/pinyougou/mapper/TbSpecificationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougoumanagerweb/src/main/java/com/pinyougou/manager/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougoumanagerweb/src/main/java/com/pinyougou/manager/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougoumanagerweb/src/main/java/com/pinyougou/manager/controller/ItemCatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougoumanagerweb/src/main/java/com/pinyougou/manager/controller/ItemCatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougoumanagerweb/src/main/java/com/pinyougou/manager/controller/SpecificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougoumanagerweb/src/main/java/com/pinyougou/manager/controller/SpecificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougousellergoodsinterface/src/main/java/com/pinyougou/sellergoods/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougousellergoodsinterface/src/main/java/com/pinyougou/sellergoods/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougousellergoodsinterface/src/main/java/com/pinyougou/sellergoods/service/ItemCatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougousellergoodsinterface/src/main/java/com/pinyougou/sellergoods/service/ItemCatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougousellergoodsinterface/src/main/java/com/pinyougou/sellergoods/service/SpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougousellergoodsinterface/src/main/java/com/pinyougou/sellergoods/service/SpecificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougousellergoodsservice/src/main/java/com/pinyougou/sellergoods/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougousellergoodsservice/src/main/java/com/pinyougou/sellergoods/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougousellergoodsservice/src/main/java/com/pinyougou/sellergoods/service/impl/ItemCatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougousellergoodsservice/src/main/java/com/pinyougou/sellergoods/service/impl/ItemCatServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougousellergoodsservice/src/main/java/com/pinyougou/sellergoods/service/impl/SpecificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougousellergoodsservice/src/main/java/com/pinyougou/sellergoods/service/impl/SpecificationServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pinyougoumanagerweb/src/main/java/com/pinyougou/manager/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../scsw/jsp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -73,7 +88,11 @@
       <workItem from="1669041963791" duration="8140000" />
       <workItem from="1669124274305" duration="672000" />
       <workItem from="1669124968777" duration="595000" />
-      <workItem from="1669189194727" duration="14224000" />
+      <workItem from="1669189194727" duration="16206000" />
+      <workItem from="1669255259433" duration="1531000" />
+      <workItem from="1669272543462" duration="4527000" />
+      <workItem from="1669299773256" duration="2092000" />
+      <workItem from="1669336515653" duration="8035000" />
     </task>
     <task id="LOCAL-00001" summary="完成品牌管理相关业务">
       <created>1669050332048</created>
@@ -103,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669213821933</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成规格管理相关业务与前端代码的移入">
+      <created>1669214181065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669214181065</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,8 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成品牌管理相关业务" />
-    <MESSAGE value="完成规格管理相关业务与前端代码的移入" />
     <MESSAGE value="完成规格管理相关业务与前端代码的移入，二次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成规格管理相关业务与前端代码的移入，二次提交" />
+    <MESSAGE value="完成规格管理相关业务与前端代码的移入" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成规格管理相关业务与前端代码的移入" />
   </component>
 </project>

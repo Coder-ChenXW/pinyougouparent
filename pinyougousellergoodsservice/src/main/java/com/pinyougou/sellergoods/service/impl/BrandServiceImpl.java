@@ -121,4 +121,9 @@ public class BrandServiceImpl implements BrandService {
             brandMapper.deleteByPrimaryKey(id);
         }
     }
+
+    @Override
+    public List<Map> selectOptionList() {
+        return brandMapper.selectOptionList();
+    }
 }

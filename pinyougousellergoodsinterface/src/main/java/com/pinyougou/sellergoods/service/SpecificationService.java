@@ -1,5 +1,6 @@
 package com.pinyougou.sellergoods.service;
 import java.util.List;
+import java.util.Map;
 
 import com.pinyougou.entity.PageResult;
 import com.pinyougou.pojo.TbSpecification;
@@ -60,5 +61,13 @@ public interface SpecificationService {
 	 * @return
 	 */
 	public PageResult findPage(TbSpecification specification, int pageNum, int pageSize);
+
+
+	/** 
+	 * @Function: 功能描述 下拉列表
+	 * @Author: ChenXW
+	 * @Date: 9:56 2022/11/25
+	 */
+	public List<Map> selectOptionList();
 	
 }
