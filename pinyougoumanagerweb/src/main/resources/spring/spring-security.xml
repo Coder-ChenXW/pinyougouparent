@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+	<http pattern="/login.html"  security="none"></http>
+	<http pattern="/js/**"  security="none"></http>
+	<http pattern="/css/**"  security="none"></http>
+	<http pattern="/img/**"  security="none"></http>
+	<http pattern="/plugins/**"  security="none"></http>
+	<!--配置页面的拦截规则-->
+	<http use-expressions="false">
+		<!--定义某资源可以被哪些角色访问，角色必须是ROLE开头-->
+		<intercept-url pattern="/**" access="ROLE_USER"></intercept-url>
+		<form-login login-page="/login.html" always-use-default-target="true" default-target-url="/admin/index.html" />
+		<!--配置退出-->
+		<logout/>
+		<csrf disabled="true"/>
+		<headers>
+			<frame-options policy="SAMEORIGIN"/>
+		</headers>
+	</http>
+
+	<!--认证管理器  用于定义用户与角色的对应关系-->
+	<authentication-manager>
+		<authentication-provider>
+			<user-service>
+				<user name="admin" password="123456" authorities="ROLE_USER"></user>
+			</user-service>
+		</authentication-provider>
+	</authentication-manager>
+		
+</beans:beans>
